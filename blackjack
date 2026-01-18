@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blackjack - Gioca</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="table">
+    <div class="area">
+        <h3>Dealer</h3>
+        <div id="dealerCards"></div>
+        <p id="dealerScore"></p>
+    </div>
+
+    <div class="area">
+        <h3>Giocatore</h3>
+        <div id="playerCards"></div>
+        <p id="playerScore"></p>
+        <div class="info">
+            <p>Mani rimanenti: <span id="handsLeft"></span></p>
+            <p>Bankroll: €<span id="bankroll"></span></p>
+            <p>Puntata: €<input type="number" id="betInput" value="100" min="1"></p>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <div class="area">
+        <button onclick="hit()">HIT</button>
+        <button onclick="stand()">STAND</button>
+        <button onclick="doubleBet()">DOUBLE</button>
+        <button onclick="split()">SPLIT</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
