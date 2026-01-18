@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blackjack Torneo</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blackjack Torneo</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<header>
     <h1>Blackjack Torneo</h1>
     <p>Prossimo torneo: <strong>21:00</strong></p>
-  </header>
+</header>
 
-  <main>
-    <div class="buttons">
-      <a href="game.html" class="btn">Gioca Ora</a>
-      <a href="tournament.html" class="btn">Classifica</a>
+<main>
+    <div class="card-container">
+        <a href="game.html" class="btn">Gioca Ora</a>
+        <a href="tournament.html" class="btn">Classifica</a>
     </div>
-    <p class="note">Tutti i tornei sono con chip virtuali. Nessun premio in denaro reale.</p>
-  </main>
+    <p class="note">Tutti i tornei sono con <strong>chip virtuali</strong>. Nessun premio in denaro reale.</p>
+</main>
 
-  <footer>
-    <p>&copy; 2026 Blackjack Torneo • Chips Virtuali</p>
-  </footer>
+<footer>
+    <p>&copy; 2026 Blackjack Torneo</p>
+</footer>
 </body>
 </html>
